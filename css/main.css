@@ -285,13 +285,18 @@ textarea {
 
 
 
-button {
+a.typeform-share.button {
   padding: 0 1em;
   font-weight: bold;
   border: solid #6354f3 6px;
   border-radius: 10px;
   background: white;
   color: #6354f3;
+  text-decoration: none;
+  font-family: Lato, sans-serif;
+  line-height: inherit;
+  float: none;
+  display: inline-block;
 }
 
 
@@ -359,10 +364,10 @@ button {
   margin-top: -0.8em;
   font-size: 2.2em;
 }
-.landing-panel button {
+.landing-panel a.typeform-share.button {
   font-size: 2.5em;
 }
-.landing-panel button:hover {
+.landing-panel a.typeform-share.button:hover {
   color: white;
   background: #6354f3;
 }
