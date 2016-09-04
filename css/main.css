@@ -380,6 +380,7 @@ button {
 
 @media (max-width: 750px) {
   .navbar {
+    padding: 0;
     text-align: center;
   }
   .navbar ul {
