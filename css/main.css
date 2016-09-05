@@ -403,23 +403,38 @@ body > .panel {
 .panel h4 {
   font-size: 1.3em;
 }
+.panel.timeline, .panel.features, .panel.footer {
+  background: #eee;
+}
 .panel.timeline {
   margin-top: 6em;
-  background: #eee;
   text-align: center;
 }
 .panel.timeline h3 {
   margin-top: -0.8em;
   font-size: 1.8em;
 }
-.panel.features {
-  background: #eee;
-}
 .panel.faqs h4 {
   text-align: left;
 }
 .panel.faqs h4 a {
   color: inherit;
+  text-decoration: none;
+}
+.panel.footer {
+  text-align: center;
+  padding: 2em;
+}
+.panel.footer ul {
+  padding: 0;
+}
+.panel.footer ul li {
+  display: inline-block;
+  list-style:none;
+}
+.panel.footer ul li a {
+  color: #6354f3;
+  font-weight: bold;
   text-decoration: none;
 }
 
