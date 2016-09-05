@@ -299,6 +299,11 @@ a.typeform-share.button {
   display: inline-block;
 }
 
+.highlight {
+  font-weight: bold;
+  color: #6354f3;
+}
+
 
 .navbar {
   margin: auto;
@@ -377,9 +382,53 @@ a.typeform-share.button {
 }
 
 .panel {
-  margin-top: 6em;
+  padding: 2em;
   min-height: 100px;
-  background: #e0e0e0;
+}
+.max-width {
+  margin: auto;
+  max-width: 900px;
+}
+
+.panel h2, .panel h3, .panel h4 {
+  text-align: center;
+  color: #6354f3;
+}
+.panel h2 {
+  font-size: 2.5em;
+}
+.panel h3 {
+  font-size: 1.6em;
+}
+.panel h4 {
+  font-size: 1.3em;
+}
+.panel.timeline {
+  margin-top: 6em;
+  background: #eee;
+  text-align: center;
+}
+.panel.timeline h3 {
+  margin-top: -0.8em;
+  font-size: 1.8em;
+}
+
+.panel-half, .panel-third {
+  display: inline-block;
+  vertical-align: top;
+  padding: 1em;
+  box-sizing: border-box;
+  text-align: center;
+}
+.panel-half {
+  width: 49%;
+}
+.panel-third {
+  width: 33%;
+}
+.panel-third img {
+  width: 15em;
+  margin-bottom: -3em;
 }
 
 
@@ -408,5 +457,9 @@ a.typeform-share.button {
   }
   .landing-panel {
     text-align: center;
+  }
+
+  .panel-third {
+    width: 100%;
   }
 }
