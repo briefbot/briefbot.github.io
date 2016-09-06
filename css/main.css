@@ -466,7 +466,7 @@ font-size: 18px;
 .panel h4 {
   font-size: 1.3em;
 }
-.panel.timeline, .panel.features, .panel.footer {
+.panel.timeline, .panel.features {
   background: #eee;
 }
 .panel.timeline {
@@ -544,6 +544,7 @@ font-size: 18px;
 .panel.footer {
   text-align: center;
   padding: 2em;
+  background: #ddd;
 }
 .panel.footer ul {
   padding: 0;
