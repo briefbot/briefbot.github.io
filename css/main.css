@@ -303,11 +303,21 @@ a.typeform-share.button {
   font-weight: bold;
   color: #6354f3;
 }
+.highlight.pink {
+  color: #da368f;
+}
+.highlight.grey {
+  color: #555;
+}
 
 
 .max-width {
   margin: auto;
   max-width: 900px;
+}
+.max-width-2 {
+  margin: auto;
+  max-width: 750px;
 }
 .float-left {
   float: left;
@@ -351,6 +361,7 @@ a.typeform-share.button {
   border-radius: 30px;
   color: #6354f3;
   background: #eee;
+  transition: background 0.4s;
 }
 .navbar ul li:hover {
   background: #ddd;
@@ -391,22 +402,34 @@ a.typeform-share.button {
   text-decoration: none;
 }
 .landing-panel a:hover h4 {
-  opacity: 0.6;
+  opacity: 0.8;
 }
 .landing-panel h4 {
-  margin-top: 4em;
+  margin: 4em 0 2em 0;
   text-align: center;
   font-size: 1.4em;
   font-weight: 400;
   color: #6354f3;
 }
+.landing-panel h4 > span {
+  position: absolute;
+  display: block;
+  text-align: center;
+  left: 0;
+  right: 0;
+}
 .landing-panel h4 img {
   display: block;
   margin: 0.3em auto;
   width: 25px;
+  transition: margin 0.2s;
+}
+.landing-panel h4:hover img {
+  margin-top: 0.5em;
 }
 .landing-panel a.typeform-share.button {
   font-size: 2.5em;
+  transition: background 0.2s, color 0.2s;
 }
 .landing-panel a.typeform-share.button:hover {
   color: white;
@@ -478,9 +501,34 @@ font-size: 18px;
 .panel.features h3 {
   margin-top: 4em;
   text-align: left;
+  color: #777;
 }
 .panel.features img {
   /*margin-top: 5.5em;*/
+}
+.panel.hello {
+  padding: 2.7em 1em 0 1em;
+}
+.panel.hello h2 {
+  margin: 0;
+}
+.panel.hello a.button {
+  font-size: 1em;
+  padding: 0 0.3em;
+  margin-top: -0.25em;
+  border-color: #ea3899;
+}
+.panel.hello a.button:hover {
+  background: none;
+  border-color: #6354f3;
+}
+.panel.hello a.button img {
+  width: 1em;
+  margin: -0.2em 0.2em 0 -0.05em;
+}
+
+.panel.faqs {
+  background: #eee;
 }
 .panel.faqs h4 {
   text-align: left;
