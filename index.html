@@ -29,8 +29,8 @@
             <img src="img/logo.png" alt="" />
           </div>
           <ul>
-            <li>About</li>
-            <li>How it works</li>
+            <a href="#about"><li>About</li></a>
+            <a href="#how-it-works"><li>How it works</li></a>
           </ul>
 
         </div>
@@ -42,43 +42,64 @@
           <img class="landing-bot-2" src="img/landing-bot-2.png" alt="" />
           <a class="typeform-share button" href="https://jeremyevans.typeform.com/to/ISfA7O" data-mode="1" target="_blank">Say hello</a>
             <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}})()</script>
-
+          <a href="#about">
+            <h4>
+              Why should I?
+              <img class="downarrow" src="img/downarrow.png" alt="" />
+            </h4>
+          </a>
         </div>
 
-        <div class="panel timeline">
+        <div class="panel timeline" id="about">
           <div class="max-width">
-            <h2>Think Brexit's over?</h2>
-            <h3>It hasn't even begun.</h3>
-            <div class="panel-half">
-              <p>
-                You’ve got trade deals. Negotiations. Rewriting 80,000 pages of law*. Spread over years, possibly decades. And yet it’s the most important issue of our generation.
-              </p>
+            <h2><span style="font-weight:400;">Think Brexit's over?</span> It hasn't even begun.</h2>
+            <img src="img/articles.png" alt="" />
+            <h3></h3>
+            <p>
+              You’ve got trade deals. Negotiations. Rewriting 80,000 pages of law. Spread over years, possibly decades.
+            </p>
+            <p class="highlight">
+              And yet it’s the most important issue of our generation.
+            </p>
+            <!-- <div class="panel-half">
             </div>
             <div class="panel-half">
               <h4>That’s why BriefBot’s doing the hard work for you.</h4>
-            </div>
+            </div> -->
           </div>
         </div>
 
-        <div class="panel">
+        <div class="panel meet-briefbot">
           <div class="max-width">
-            <h2>Help is on its way - meet BriefBot</h2>
+            <h2>Meet BriefBot</h2>
             <!-- <h3>It hasn't even begun.</h3> -->
-            <div class="panel-half">
-              <p>
-                BriefBot is a chatbot that helps keep you informed about Brexit in the most simple, helpful and friendly way possible.
-              </p>
+            <div class="panel-half small">
+              <img src="img/bubble-small.png" alt="" />
             </div>
             <div class="panel-half">
-              <p>It starts by getting to know you and what you care about by sharing news articles, analysis, polls and more about Brexit directly to your pocket. Each time you update your preferences and respond to what it sends, BriefBot gets smarter. It’s so clever that eventually you’ll be able to ask it questions like ‘I’m looking to get a job in insurance, how is Brexit affecting that?’ or ‘When is the best time to sell my house?’. Pretty neat, huh?</p>
+              <ol>
+                <li>Let BriefBot know what Brexit issues <span class="highlight">you care about</span></li>
+                <li>BriefBot keeps you <span class="highlight">up-to-date</span> and <span class="highlight">answers your questions</span></li>
+                <li>The more you chat, the <span class="highlight">smarter</span> BriefBot gets</li>
+              </ol>
+              <!-- <p>
+                BriefBot is a chatbot that helps keep you informed about Brexit in the most simple, helpful and friendly way possible.
+              </p>
+              <p>
+                It starts by getting to know you and what you care about by sharing news articles, analysis, polls and more about Brexit directly to your pocket. Each time you update your preferences and respond to what it sends, BriefBot gets smarter. It’s so clever that eventually you’ll be able to ask it questions like ‘I’m looking to get a job in insurance, how is Brexit affecting that?’ or ‘When is the best time to sell my house?’. Pretty neat, huh?
+              </p> -->
+            </div>
+            <div class="panel-half big">
+              <img src="img/bubble.png" alt="" />
             </div>
           </div>
         </div>
 
         <div class="panel features">
-          <h2>We got your back</h2>
-          <div class="panel-third">
-            <img src="img/time-bot-2.png" alt="" />
+          <div class="max-width">
+            <h2>We got your back</h2>
+            <!-- <div class="panel-third"> -->
+            <div class="float-left"><img src="img/time-bot-2.png" alt="" /></div>
             <h3>Saving you time</h3>
             <p>
               We’re all <b class="highlight">busy</b>. Fortunately, BriefBot just loves spending time staying on top of the most important issue of our generation.
@@ -86,9 +107,9 @@
             <p>
               No more endless link clicking or Google searching. Just the <b class="highlight"> stuff that matters to you</b>.
             </p>
-          </div>
-          <div class="panel-third">
-            <img src="img/simple-bot.png" alt="" />
+            <!-- </div> -->
+            <!-- <div class="panel-third"> -->
+            <div class="float-right"><img src="img/simple-bot.png" alt="" /></div>
             <h3>Keeping it simple</h3>
             <p>
               Let’s be honest, Brexit is <b class="highlight">confusing</b>. That’s why BriefBot uses specialist expertise and cutting edge tech to break it down, step by step.
@@ -96,16 +117,17 @@
             <p>
               BriefBot’s also pretty friendly and easy to get on with - delivering you political updates <b class="highlight">like you’ve never seen before</b>.
             </p>
-          </div>
-          <div class="panel-third">
-            <img src="img/innocent-bot.png" alt="" />
+            <!-- </div> -->
+            <!-- <div class="panel-third"> -->
+            <div class="float-left"><img src="img/innocent-bot.png" alt="" /></div>
             <h3>No funny business</h3>
             <p>
-              BriefBot <b class="highlight">doesn’t care</b> how you voted or even whether you voted. BriefBot’s entirely neutral and has no opinion, (or even the right to vote 🤖).
+              BriefBot <b class="highlight">doesn’t care</b> how you voted or even whether you voted. BriefBot’s entirely neutral and has no opinion, (or even the right to vote&nbsp;🤖).
             </p>
             <p>
               All BriefBot cares about is getting you informed about what’s going on - so you can <b class="highlight">make up your own mind</b>.
             </p>
+            <!-- </div> -->
           </div>
         </div>
 
