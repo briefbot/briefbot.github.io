@@ -1,6 +1,6 @@
 // JavaScript
 window.sr = ScrollReveal();
-sr.reveal('.scroll-reveal', { distance: '40px', duration: 600, scale: 0.95 });
+sr.reveal('img:not(.no-reveal), .panel-heading', { distance: '30px', duration: 600, scale: 0.95 });
 //
 $(function() {
   $('a[href*="#about"]:not([href="#"])').click(function() {
