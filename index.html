@@ -11,6 +11,8 @@
         <!-- Place favicon.ico in the root directory -->
 
         <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/transition.min.css">
+        <link rel="stylesheet" href="css/popup.min.css">
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
 
         <!-- Latest compiled and minified CSS -->
@@ -37,10 +39,10 @@
 
         <div class="landing-panel">
           <h2><span>We voted - what happens next?</span></h2>
-          <h3><span><b>BriefBot</b> is the best way to keep tabs on <span style="border-bottom: 6px solid #ea3899">Brexit</span></span></h3>
+          <h3><span><b>BriefBot</b> is the best way to keep tabs on <a href="#brexit" class="brexit" data-html="<div class='brexit-popup'><h4>The 350 million-dollar question..</h4><h3>How do you pronounce <span>Brexit</span>?</h3><button>Breggs-it</button><button>Breck-zit</button></div>">Brexit</a></span></h3>
           <img class="landing-bot" src="img/landing-bot.png" alt="" />
           <img class="landing-bot-2" src="img/landing-bot-2.png" alt="" />
-          <a class="typeform-share button" href="/form" target="_blank">Say hello</a>
+          <a class="typeform-share button main-button" href="/form" target="_blank">Say hello</a>
           <a href="#about">
             <h4>
               Why should I?
@@ -68,7 +70,7 @@
           </div>
         </div>
 
-        <div class="panel meet-briefbot">
+        <div class="panel meet-briefbot" id="how-it-works">
           <div class="max-width">
             <h2><span style="font-weight:400;color:#777;">Meet</span> BriefBot</h2>
             <!-- <h3>It hasn't even begun.</h3> -->
@@ -121,7 +123,7 @@
               <div class="float-left"><img src="img/innocent-bot.png" alt="" /></div>
               <h3>No <span style="color:#6354f3;">funny business</span></h3>
               <p>
-                BriefBot <b class="highlight grey">doesn’t care</b> how you voted or even whether you voted. BriefBot’s entirely neutral and has no opinion, (or even the right to vote&nbsp;🤖).
+                BriefBot <b class="highlight grey">doesn’t care</b> how you voted or even whether you voted. BriefBot’s entirely neutral and has no opinion, (or even the right to vote).
               </p>
               <p>
                 All BriefBot cares about is getting you informed about what’s going on - so you can <b class="highlight">make up your own mind</b>.
@@ -257,6 +259,8 @@
 
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="js/vendor/transition.min.js"></script>
+        <script src="js/vendor/popup.min.js"></script>
 
         <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js"></script>
         <script src="js/plugins.js"></script>
