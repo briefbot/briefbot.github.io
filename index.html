@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>BriefBot - your news chatbot</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,6 +29,7 @@
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 
+
         <script>
           !function(g,s,q,r,d){r=g[r]=g[r]||function(){(r.q=r.q||[]).push(
           arguments)};d=s.createElement(q);q=s.getElementsByTagName(q)[0];
@@ -48,8 +49,8 @@
             <img class="no-reveal" src="img/logo.png" alt="" />
           </div>
           <ul>
-            <a href="#about"><li>About</li></a>
-            <a href="#how-it-works"><li>How it works</li></a>
+            <a onclick="_gs('event', 'Header About')" href="#about"><li>About</li></a>
+            <a onclick="_gs('event', 'Header How It Works')" href="#how-it-works"><li>How it works</li></a>
           </ul>
 
         </div>
@@ -60,7 +61,7 @@
           <img class="landing-bot" src="img/landing-bot.png" alt="" />
           <img class="landing-bot-2" src="img/landing-bot-2.png" alt="" />
           <!-- <a class="typeform-share button main-button" href="/form" target="_blank">Say hello</a> -->
-          <a class="typeform-share button main-button" href="https://m.me/brexitbrief" target="_blank">Say hello</a>
+          <a class="typeform-share button main-button" onclick="_gs('event', 'Messenger Button 1')" href="https://m.me/brexitbrief" target="_blank">Say hello</a>
           <a href="#about">
             <h4>
               Why should I?
@@ -151,7 +152,7 @@
         </div>
 
         <div class="panel hello">
-          <h2>Ready to <span><a class="typeform-share button" href="https://m.me/brexitbrief" target="_blank"><img src="img/messenger.png" alt="" />say hello</a></span> yet?</h2>
+          <h2>Ready to <span><a class="typeform-share button" onclick="_gs('event', 'Messenger Button 2')" href="https://m.me/brexitbrief" target="_blank"><img src="img/messenger.png" alt="" />say hello</a></span> yet?</h2>
         </div>
 
         <div class="panel faqs">
@@ -256,15 +257,15 @@
                   </li>
                   <li class="footer-menu-divider">&sdot;</li>
                   <li>
-                      <a class="page-scroll" href="#about">About</a>
+                      <a class="page-scroll" onclick="_gs('event', 'Footer About')" href="#about">About</a>
                   </li>
                   <li class="footer-menu-divider">&sdot;</li>
                   <li>
-                      <a class="page-scroll" href="#how-it-works">How It Works</a>
+                      <a class="page-scroll" onclick="_gs('event', 'Footer How It Works')" href="#how-it-works">How It Works</a>
                   </li>
                   <li class="footer-menu-divider">&sdot;</li>
                   <li>
-                      <a class="page-scroll" href="https://m.me/brexitbrief">Contact</a>
+                      <a class="page-scroll" onclick="_gs('event', 'Messenger Contact Button')" href="https://m.me/brexitbrief">Contact</a>
                   </li>
               </ul>
               <p class="copyright text-muted small">Copyright &copy; Savi - All Rights Reserved</p>
